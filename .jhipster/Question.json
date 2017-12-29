@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "text",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ordNum",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20171228201626",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "question",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

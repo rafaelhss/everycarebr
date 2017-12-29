@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "answer",
+            "otherEntityName": "answer",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "professional"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "telegramId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20171228202744",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "professional",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pager"
+}
